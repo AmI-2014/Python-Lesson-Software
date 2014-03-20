@@ -1,7 +1,7 @@
 '''
 Created on 06/mar/2014
 
-@author: bonino
+@author: Dario Bonino <dario.bonino@polito.it>
 '''
 import pyglet
 

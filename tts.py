@@ -1,7 +1,7 @@
 '''
 Created on Mar 13, 2014
 
-@author: bonino
+@author: Dario Bonino <dario.bonino@polito.it>
 '''
 #!/usr/bin/python
 

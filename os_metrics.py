@@ -1,7 +1,7 @@
 '''
 Created on Mar 17, 2014
 
-@author: bonino
+@author: Dario Bonino <dario.bonino@polito.it>
 '''
 import os
 

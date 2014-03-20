@@ -1,15 +1,17 @@
 '''
 Created on Mar 19, 2014
 
-@author: bonino
+@author: Dario Bonino <dario.bonino@polito.it>
 '''
 
 import os,psutil,time,tts
 
-'''
-Prints some system metric in an os-independent way
-'''
+
 def print_sys_metrics():
+    
+    '''
+    Prints some system metric in an os-independent way
+    '''
     #get uname data
     uname = os.uname()
     

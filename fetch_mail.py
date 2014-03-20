@@ -1,16 +1,18 @@
 '''
 Created on Mar 18, 2014
 
-@author: bonino
+@author: Dario Bonino <dario.bonino@polito.it>
 '''
 import imaplib, email, tts, time
 
-'''
-Checks a gmail mailbox for new messages, and if any unread mail is found 
-provides a vocal rendering of the mail sender and subject
-'''
+
 def check_mail(user, pwd):
 
+    '''
+    Checks a gmail mailbox for new messages, and if any unread mail is found 
+    provides a vocal rendering of the mail sender and subject
+    '''
+    
     # define the mail server (IMAP) in our case
     mail = imaplib.IMAP4_SSL('imap.gmail.com')
     
